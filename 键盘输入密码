@@ -5,7 +5,8 @@ for item in range(3):
         break
     else:
         print('密码不正确')
-
+else:
+    print('对不起，三次密码均输入错误')
 
 #while循环实现
 a=0;
@@ -16,3 +17,5 @@ while a<3:
         break
     else:
         print('密码不正确，请重新输入：')
+else:
+    print('对不起，三次密码均输入错误')
