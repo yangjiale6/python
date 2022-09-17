@@ -1,0 +1,18 @@
+for item in range(3):
+    pwd=input('请输入密码：')
+    if pwd=='8888':
+        print('密码正确')
+        break
+    else:
+        print('密码不正确')
+
+
+#while循环实现
+a=0;
+while a<3:
+    pwd=input('请输入密码：')
+    if pwd==('8888'):
+        print('密码正确')
+        break
+    else:
+        print('密码不正确，请重新输入：')
