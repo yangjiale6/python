@@ -1,0 +1,11 @@
+def get_even_numbers(begin, end):
+    result = []
+    for item in range(begin, end):
+        if item % 2 == 0:
+            result.append(item)
+    return result
+
+
+begin = int(input('请输入起始值：'))
+end = int(input('请输入终止值：'))
+print(f'begin={begin},end={end},范围内所有偶数为：', get_even_numbers(begin, end))
