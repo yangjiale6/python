@@ -8,6 +8,7 @@ lista = [1, 3, 5, 7, 9, 11]
 listb = [7, 9]
 print(f'from{lista} remove {listb},result:', remove_elements_from_list(lista, listb))
 
-
+lista = [1, 3, 5, 7, 9, 11]
+listb = [7, 9]
 data=[item for item in lista if item not in listb]
 print(f'from{lista} remove {listb},result:', data)
